@@ -1,0 +1,36 @@
+.form-signup {
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    margin-top: 7rem;
+}
+
+.form-signup form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+}
+
+.form-signup input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+}
+
+.form-signup button {
+    display: inline;
+}
+
+@media screen  and (max-width:850px) {
+    .form-signup {
+      margin: 7rem 2rem 4rem;
+    }
+
+    .form-signup form {
+      padding-top: 2rem;
+      width: 90%;
+    }
+}
