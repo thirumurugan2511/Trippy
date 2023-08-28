@@ -1,0 +1,14 @@
+.signupresult {
+    margin: 6rem 4rem;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 2px 5px 5px ;
+    background: lightseagreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupresult h3 {
+    color: white;
+}

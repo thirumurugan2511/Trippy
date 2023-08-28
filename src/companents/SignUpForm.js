@@ -1,4 +1,5 @@
 import "./SignUpForm.css";
+import SignUpResult from "./SignUpResult";
 
 function SignUpForm() {
     return(
@@ -6,9 +7,9 @@ function SignUpForm() {
     <h1>Sign Up</h1>
     <form>
         <input type="text" placeholder="Username"/>
-        <input type="text" placeholder="Email"/>
+        <input type="email" placeholder="Email"/>
         <input type="password" placeholder="Password"/>
-        <button>Submit</button>
+        <button> <a href="/signupresult">Submit </a></button>
     </form>
 </div>
     )

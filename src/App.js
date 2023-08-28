@@ -5,6 +5,7 @@ import About from './routes/About';
 import Service from './routes/Service';
 import Contact from './routes/Contact';
 import SignUp from './routes/SignUp';
+import SignUpResult from './companents/SignUpResult';
 import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <Route path='/service' element={<Service/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/signup' element={<SignUp/>}/>
+      <Route path='/signupresult' element={<SignUpResult/>}/>
+      
       </Routes>
     </div>
   )
